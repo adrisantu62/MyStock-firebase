@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyStock | Dashboard</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Dashboard</h1>
+      <span id="user"></span>
+      <button id="logout-btn">Cerrar sesión</button>
+    </header>
+
+    <main id="dashboard">
+      <!-- Visible para todos -->
+      <section id="products-section">
+        <h2>Productos</h2>
+        <div id="products-list"></div>
+      </section>
+
+      <!-- Solo admin -->
+      <section id="admin-section" hidden>
+        <h2>Administración</h2>
+
+        <section id="categories-section">
+          <h3>Categorías</h3>
+          <div id="categories-list"></div>
+        </section>
+
+        <section id="product-form-section">
+          <h3>Producto</h3>
+          <!-- Form más adelante -->
+        </section>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+    <script type="module" src="./js/main.js"></script>
+    <script type="module" src="./js/products.js"></script>
+    <script type="module" src="./js/categories.js"></script>
+    <script type="module" src="./js/ui.js"></script>
+  </body>
+</html>

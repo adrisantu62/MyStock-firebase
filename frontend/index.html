@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyStock | Login</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main id="app">
+      <h1>MyStock</h1>
+
+      <section id="login-section">
+        <button id="google-login-btn" type="button">
+          Iniciar sesión con Google
+        </button>
+
+        <form id="email-login-form">
+          <input type="email" id="email" placeholder="Email" required />
+
+          <input
+            type="password"
+            id="password"
+            placeholder="Contraseña"
+            required
+          />
+
+          <button type="submit">Iniciar sesión</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+    <script type="module" src="./js/auth.js"></script>
+  </body>
+</html>

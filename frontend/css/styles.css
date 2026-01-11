@@ -1,0 +1,33 @@
+#global-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Fondo oscuro */
+#global-loader .loader-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Spinner */
+#global-loader .loader-spinner {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 6px solid #ddd;
+  border-top-color: #0d6efd; /* bootstrap primary */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  z-index: 1;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
