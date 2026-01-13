@@ -140,3 +140,7 @@ vite.config.ts.timestamp-*
 
 # Firebase certificate
 backend/certificate.json
+
+# Firebase Functions build
+functions/lib/
+functions/node_modules/

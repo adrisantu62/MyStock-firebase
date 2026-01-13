@@ -1,6 +1,10 @@
 import { auth } from './firebase.js';
 
-const API_BASE_URL = 'http://localhost:4000/api';
+// Detectar automáticamente el entorno
+const isDevelopment =
+  window.location.hostname === 'localhost' ||
+  window.location.hostname === '127.0.0.1';
+const API_BASE_URL = isDevelopment ? 'http://localhost:4000/api' : '/api'; // En producción, usar la misma URL (Firebase Hosting + Functions)
 
 async function getIdToken() {
   const user = auth.currentUser;

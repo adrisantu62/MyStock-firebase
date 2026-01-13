@@ -4,7 +4,12 @@
     "dev:frontend": "serve frontend",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "build:backend": "tsc -p backend",
+    "build:functions": "node scripts/build-functions.js",
+    "predeploy": "npm run build:functions",
+    "predeploy:functions": "npm run build:functions",
     "deploy": "firebase deploy",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:functions": "npm run predeploy:functions && firebase deploy --only functions",
     "seed": "ts-node backend/src/seeds/seed.ts",
     "setAdmin": "ts-node backend/scripts/setAdmin.ts"
   },
